@@ -1,0 +1,73 @@
+html {
+    background-color: #616264
+}
+body {
+    color: #243f41;
+    background-color: #e9e7da;
+    padding: 5px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Fjalla One", sans-serif;
+    color: #2a80b0
+}
+
+button {
+  color: #2a80b0;
+  border: 1px solid #2a80b0;
+  text-align: center;
+  background: none;
+  width: 200px;
+}
+
+.map {
+  width: 100%;
+}
+
+.actions {
+  display: flex;
+  vertical-align: middle;
+  flex-wrap: wrap;
+}
+
+.actions li {
+    flex: 1;
+    text-align: center;
+}
+
+.summary,.checkpoint,.actions {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  padding: 0.5em;
+  margin-top: 1em;
+}
+
+.summary .diaporama {
+  background-color: rgba(0, 0, 0, 0.05);
+
+  display: flex;
+  vertical-align: middle;
+  flex-wrap: wrap;
+}
+
+.date {
+  font-style: italic;
+}
+
+.summary .diaporama li {
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+}
+
+.checkpoint form * {
+  margin-top: 0.5em;
+}
+.checkpoint textarea {
+  -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            width: 100%;
+}
