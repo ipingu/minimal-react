@@ -1,18 +1,12 @@
 html {
-    background-color: #616264
+    background-color: white;
+
 }
 body {
     color: #243f41;
-    background-color: #e9e7da;
-    padding: 5px;
+    background-color: white;
 }
 
-h1,
-h2,
-h3 {
-    font-family: "Fjalla One", sans-serif;
-    color: #2a80b0
-}
 
 button {
   color: #2a80b0;
@@ -22,9 +16,7 @@ button {
   width: 200px;
 }
 
-.map {
-  width: 100%;
-}
+
 
 .actions {
   display: flex;
@@ -37,11 +29,22 @@ button {
     text-align: center;
 }
 
+form input {
+  width: 100%;
+}
+
+form textarea {
+  width: 100%;
+}
+
+article {
+    border: 2px solid #bbb;
+    padding: 0.5em;
+    margin-top: 1em;
+}
+
 .summary,.checkpoint,.actions {
-  background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.23);
   padding: 0.5em;
-  margin-top: 1em;
 }
 
 .summary .diaporama {
@@ -61,6 +64,7 @@ button {
     margin: 5px;
     text-align: center;
 }
+
 
 .checkpoint form * {
   margin-top: 0.5em;

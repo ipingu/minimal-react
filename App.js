@@ -1,16 +1,12 @@
 import React from 'react';
-import TripMessage from './TripMessage'
-import Trip from './Trip'
-import TripActions from './TripActions'
-import SimpleExample from './SimpleExample'
+import VisibleTrip from './containers/VisibleTrip';
 
 class App extends React.Component {
 
    render() {
       return (
         <div>
-        <SimpleExample />
-         <Trip />
+          <VisibleTrip />
         </div>
       );
    }

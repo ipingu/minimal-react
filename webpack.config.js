@@ -8,7 +8,10 @@ var config = {
          port: 8080 // development port server
       },
    module: {
-         loaders: [
+         loaders: [{
+           test: /\.less$/,
+          loader: "style-loader!css-loader!less-loader"
+            },
             {
                test: /\.jsx?$/, // search for js files
                exclude: /node_modules/,
